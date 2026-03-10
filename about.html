@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>About - Digi-Serve Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About | Digi-Serve Hub</title>
+
 <script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+body{
+background:#0f172a;
+overflow-x:hidden;
+}
+
+.star{
+position:absolute;
+color:gold;
+opacity:0.2;
+animation:float 8s infinite linear;
+}
+
+@keyframes float{
+0%{transform:translateY(0px)}
+50%{transform:translateY(-30px)}
+100%{transform:translateY(0px)}
+}
+
+</style>
+
 </head>
 
-<body class="bg-slate-900 text-white p-10 text-center">
+<body class="text-white font-sans">
 
-  <nav class="bg-slate-900 border-b border-slate-700 px-6 py-4 flex justify-between items-center">
+<!-- Floating Stars -->
 
-<h1 class="text-xl font-bold text-white">
-DSH
+<div class="star text-2xl" style="top:15%; left:10%">⭐</div>
+<div class="star text-xl" style="top:35%; left:70%">⭐</div>
+<div class="star text-3xl" style="top:70%; left:20%">⭐</div>
+
+<!-- Navigation Bar -->
+
+<nav class="bg-slate-900 border-b border-slate-700 px-6 py-4 flex justify-between items-center">
+
+<h1 class="text-xl font-bold text-green-400">
+DSH <span class="text-gray-300 text-sm">Digi-Serve Hub</span>
 </h1>
 
 <div class="space-x-4 text-sm">
@@ -32,39 +68,78 @@ Contact
 </a>
 
 <a href="https://wa.me/917896925877"
-class="bg-green-500 px-3 py-1 rounded text-white">
+class="bg-green-500 px-3 py-1 rounded text-white hover:bg-green-600">
 WhatsApp
 </a>
 
 </div>
 
-  </nav>
-  
-<h1 class="text-4xl font-bold mb-8">
+</nav>
+
+<!-- Page Content -->
+
+<section class="text-center py-20 px-6">
+
+<h1 class="text-4xl md:text-5xl font-bold mb-6">
 About Digi-Serve Hub
 </h1>
 
-<p class="max-w-2xl mx-auto text-gray-400 mb-6">
+<p class="text-gray-400 max-w-2xl mx-auto mb-6">
+
 Digi-Serve Hub (DSH) is a digital growth agency focused on helping
-local businesses attract more customers through online platforms.
+local businesses attract more customers using modern online tools.
+
 </p>
 
-<p class="max-w-2xl mx-auto text-gray-400 mb-6">
-We specialize in targeted advertising, Google visibility
-and lead generation systems that turn online visitors
-into real paying customers.
+<p class="text-gray-400 max-w-2xl mx-auto mb-6">
+
+Many businesses struggle to get visibility online even when their
+products or services are great. Our mission is to bridge that gap
+by using digital marketing strategies that actually bring results.
+
 </p>
 
-<p class="max-w-2xl mx-auto text-gray-400">
-Our goal is simple — help businesses grow faster using
-modern digital tools.
+<p class="text-gray-400 max-w-2xl mx-auto mb-6">
+
+Through targeted advertising, Google visibility optimization,
+and WhatsApp lead systems, we help businesses turn online
+attention into real customer enquiries.
+
 </p>
 
-<br><br>
+<p class="text-gray-400 max-w-2xl mx-auto">
 
-<a href="contact.html" class="bg-green-500 px-6 py-3 rounded-lg">
-Work With Us
+Our focus is simple — build systems that consistently
+generate leads and help businesses grow.
+
+</p>
+
+</section>
+
+<!-- CTA Section -->
+
+<section class="text-center pb-20">
+
+<h2 class="text-2xl font-semibold mb-6">
+Want More Customers For Your Business?
+</h2>
+
+<a href="https://wa.me/917896925877"
+class="bg-green-500 px-8 py-4 rounded-xl font-semibold hover:bg-green-600 transition">
+
+Chat With Digi-Serve Hub
+
 </a>
 
+</section>
+
+<!-- Footer -->
+
+<footer class="text-center text-gray-500 pb-10">
+
+<p>© 2026 Digi-Serve Hub (DSH)</p>
+
+</footer>
+
 </body>
-</html>
+  </html>
